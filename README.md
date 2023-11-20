@@ -1,224 +1,100 @@
-# Classify Attacks Based on Blockchain Components
+<h1 align="left">Classify Attacks Based on Blockchain Components</h1>
 
-<!-- TABLE OF CONTENTS -->
-<h2 id="table-of-contents"> :book: Table of Contents</h2>
+###
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#overview"> ➤ Overview</a></li>
-    <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
-    <li><a href="#getting-started"> ➤ Getting Started</a></li>
-    <li><a href="#scenario1"> ➤ Scenario 1: Depth First Search </a></li>
-    <li><a href="#scenario2"> ➤ Scenario 2: Breadth First Search </a></li>
-    <li><a href="#scenario3"> ➤ Scenario 3: Uniform Cost Search </a></li>
-    <li><a href="#scenario4"> ➤ Scenario 4: A* search algorithm </a></li>
-    <li><a href="#scenario5"> ➤ Scenario 5: Finding All Corners </a></li>
-    <li><a href="#scenario6"> ➤ Scenario 6: Admissible and Consistent Heuristic </a></li>
-    <li><a href="#scenario7"> ➤ Scenario 7: Eating All Dots </a></li>
-    <li><a href="#scenario8"> ➤ Scenario 8: Suboptimal Search </a></li>
-    <li><a href="#references"> ➤ References</a></li>
-    <li><a href="#credits"> ➤ Credits</a></li>
-  </ol>
-</details>
+<p align="left"></p>
 
+###
 
-<!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> ✴️ About The Project</h2>
+<h2 align="left">Overview</h2>
 
-<ul>
-  <li>This project aims to categorize attacks within blockchain networks, focusing on individual blockchain components and providing a comprehensive framework for identifying and analyzing these attacks.</li>
-  <li>Wallet, Consensus Mechanism, Mining pool, Peer-to-Peer network, and Smart Contracts are the blockchain components.</li>
-  <li>The primary purpose is to give a precise taxonomy that categorizes various attack paths, allowing for a better understanding of risks and vulnerabilities in the context of blockchain components.</li>
-</ul>
+###
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p align="left">- This project aims to categorize attacks within blockchain networks, focusing on individual blockchain components and providing a comprehensive framework for identifying and analyzing these attacks.<br><br>- Wallet, Consensus Mechanism, Mining pool, Peer-to-Peer network, and Smart Contracts are the blockchain components.<br><br>- The primary purpose is to give a precise taxonomy that categorizes various attack paths, allowing for a better understanding of risks and vulnerabilities in the context of blockchain components.</p>
 
-<!-- OVERVIEW -->
-<h2 id="overview"> :cloud: Overview</h2>
+###
 
-<p align="justify"> 
-  In this project, the Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. I implemented general search algorithms such as depth-first, breadth-first, uniform cost, and A* search algorithms which are used to solve navigation problems in the Pacman world.
-</p>
+<div align="left">
+</div>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- PROJECT FILES DESCRIPTION -->
-<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
+<h2 align="left">Problem Statement</h2>
 
-<ul>
-  <li><b>search.py</b> - Where all of the search algorithms reside.</li>
-  <li><b>searchAgents.py</b> - Where all of the search-based agents reside.</li>
-  <li><b>pacman.py</b> - The main file that runs Pacman games. This file also describes a Pacman GameState types.</li>
-  <li><b>game.py</b> - The logic behind how the Pacman world works.</li>
-  <li><b>util.py</b> - Useful data structures for implementing search algorithms.</li>
-</ul>
+###
 
-<h3>Some other supporting files</h3>
-<ul>
-  <li><b>graphicsDisplay.py</b> - Graphics for Pacman.</li>
-  <li><b>graphicsUtils.py</b> - Support for Pacman graphics.</li>
-  <li><b>textDisplay.py</b> - ASCII graphics for Pacman.</li>
-  <li><b>ghostAgents.py</b> - Agents to control ghosts.</li>
-  <li><b>keyboardAgents.py</b> - Keyboard interfaces to control Pacman.</li>
-  <li><b>layout.py</b> - Code for reading layout files and storing their contents.</li>
-  <li><b>autograder.py</b> - Project autograder.</li>
-  <li><b>testParser.py</b> - Parses autograder test and solution files.</li>
-  <li><b>testClasses.py</b> - General autograding test classes.</li>
-  <li><b>test_cases/</b> - Directory containing the test cases for each scenario.</li>
-  <li><b>searchTestClasses.py</b> - Project specific autograding test classes.</li>
-</ul>
+<p align="left">- Blockchain technology is intended to be safe and resistant to unauthorized changes, however it is not immune to certain sorts of attacks.<br><br>- Attacks on blockchain, such as 51% attacks and smart contract vulnerabilities, can erode trust in cryptocurrencies and financial products, potentially reducing their adoption. <br><br>- This review paper will investigate blockchain component attacks, examining weaknesses and security challenges in important areas like as consensus procedures, smart contracts, cryptography, and network protocols.<br><br>- Among the main components that will be focused on are consensus mechanisms, mining, mining pools, peer-to-peer networks, ledgers, wallets, networks and smart contracts.</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- GETTING STARTED -->
-<h2 id="getting-started"> :book: Getting Started</h2>
+<h2 align="left"></h2>
 
-<p>You are able to start the game by typing the following commands in the command line:</p>
-<pre><code>$ python pacman.py</code></pre>
+###
 
-<p>You can see the list of all options and their default values via:</p>
-<pre><code>$ python pacman.py -h</code></pre>
-<i>Note that all of the commands that appear in this project also appear in <code>commands.txt</code>, for easy copying and pasting.</i>
+<h2 align="left">What is Blockchain</h2>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- SCENARIO1 -->
-<h2 id="scenario1"> :small_orange_diamond: Scenario 1: Finding a Fixed Food Dot using Depth First Search</h2>
+<p align="left">Blockchain is a decentralized system that records information in a secure manner, resembling a digital ledger. It is distributed across a network of computer systems, with each block containing multiple transactions. Each block is secured using cryptographic principles, giving it its name. Blockchain is most commonly used in cryptocurrencies like Bitcoin, but it can also be used for secure medical records sharing, supply chain monitoring, and real-time IoT operating systems. Its key advantages include transparency, security, and resistance to tampering, making it a valuable tool for securely recording transactions and managing data.</p>
 
-<p>I have implemented the depth-first search (DFS) algorithm in the depthFirstSearch function in <code>search.py</code>.</p>
-<p>The Pacman will quickly find a solution via running the following commands:</p>
+###
 
-<pre><code>$ python pacman.py -l tinyMaze -p SearchAgent</code></pre>
-<pre><code>$ python pacman.py -l mediumMaze -p SearchAgent</code></pre>
-<pre><code>$ python pacman.py -l bigMaze -z .5 -p SearchAgent</code></pre>
+<h2 align="left">How Blockchain Works</h2>
 
-<p align="center"> 
-<img src="gif/DFS.gif" alt="Animated gif DFS Algorithm" height="282px" width="637px">
-<!--height="382px" width="737px"-->
-</p>
+###
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p align="left">The blockchain is a tool for docume­nting data which turns it tough to alter or trick. It resemble­s an electronic record of e­xchanges that's copied and spread on a whole­ system of computers. Every blockchain's block holds many transactions, and whe­n a fresh transaction happens on the blockchain, that transaction's re­cord is added to each participant's record. This de­centralized database that is manage­d by several participants is called Distribute­d Ledger Technology (DLT).<br><br>Blockchain’s security and integrity depend on creating every block using its own distinctive hash, along with the has of all the preceding blocks in the chain. Then each of these is time-stamped and given a cryptographic signature which connects the new block to the previous one so strongly that no transaction from the past can be changed without altering all subsequent blocks and getting the entire network to agree with the change. The system is incorruptible and transparent for recording the transactions as this chain of blocks is continually updated and verified by the network. The basis of cryptocurrencies like bitcoin, it is capable of providing solutions like supply chain management, verifying digital identity and secure voting system among many others.</p>
 
-<!-- SCENARIO2 -->
-<h2 id="scenario2"> :small_orange_diamond: Scenario 2: Finding a Fixed Food Dot using Breadth First Search</h2>
+###
 
-<p>I have implemented the breadth-first search (BFS) algorithm in the breadthFirstSearch function in <code>search.py</code>.</p>
-<p>I wrote a graph search algorithm that avoids expanding any already visited states.</p>
-<p>The Pacman will quickly find a solution via running the following commands:</p>
+<h2 align="left">Attacks on Blockchain</h2>
 
-<pre><code>$ python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs</code></pre>
-<pre><code>$ python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5</code></pre>
+###
 
-<p align="center"> 
-<img src="gif/BFS.gif" alt="Animated gif BFS Algorithm" height="282px" width="637">
-</p>
+<h3 align="left">Peer-to-Peer Network-based Attacks</h3>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- SCENARIO3 -->
-<h2 id="scenario3"> :small_orange_diamond: Scenario 3: Finding the best path using Uniform Cost Search</h2>
+<p align="left">1.  Transaction malleability Attack<br>2.  Liveness Attack<br>3.  Spatial partitioning attack<br>4.  BGP hijacking attack<br>5.  Stress testing attack<br>6.  Memory pool flooding<br>7.  Block withholding attack<br>8.  DNS attack <br>9.  Eclipse attack<br>10.  Sybil attack <br>11.  Time-jacking<br>12.  Eclipse attack<br>13.  Distributed denial of service (DDoS) attack<br>14.  Memory pool flooding attack<br>15.  Routing attack<br>16.  Bribery attack</p>
 
-<p>I have implemented the uniform-cost graph search (UCS) algorithm in the uniformCostSearch function in <code>search.py</code>.</p>
-<p>While BFS will find a fewest-actions path to the goal, UCS will find paths that are “best” in other senses.</p>
-<p>UCS agents differ only in the cost function they use.</p>
-<p>The Pacman will quickly find a solution via running the following commands:</p>
+###
 
-<pre><code>$ python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs</code></pre>
-<pre><code>$ python pacman.py -l mediumDottedMaze -p StayEastSearchAgent</code></pre>
-<pre><code>$ python pacman.py -l mediumScaryMaze -p StayWestSearchAgent</code></pre>
+<h3 align="left">Smart Contract-based Attacks</h3>
 
-<p align="center"> 
-<img src="gif/UCS.gif" alt="Animated gif UCS Algorithm" height="282px" width="637">
-</p>
+###
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p align="left">1.  DAO attack - Decentralized Autonomous Organization Attack<br>2.  Race attack<br>3.  Code injection</p>
 
-<!-- SCENARIO4 -->
-<h2 id="scenario4"> :small_orange_diamond: Scenario 4: Finding the best path using A* search algorithm</h2>
+###
 
-<p>I have implemented the A* graph search algorithm in the aStarSearch function in <code>search.py</code>.</p>
-<p>I used Manhattan distance as the heuristic function.</p>
-<p>A* finds the optimal solution slightly faster than Uniform Cost Search.</p>
-<p>The Pacman will quickly find a solution via running the following command:</p>
+<h3 align="left">Wallets-based Attacks</h3>
 
-<pre><code>$ python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic</code></pre>
+###
 
-<p align="center"> 
-<img src="gif/A.gif" alt="Animated gif A* search Algorithm" height="420px" width="420px">
-</p>
+<p align="left">1.  Parity multi-sig wallet Attack <br>2.  Wallet Thief Attack<br>3.  Brute Force attack<br>4.  Social Engineering Attack<br>5.  Phishing Attack<br>6.  XSS Attack</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- SCENARIO5 -->
-<h2 id="scenario5"> :small_orange_diamond: Scenario 5: Finding All the Corners</h2>
+<h3 align="left">Mining Pool Attacks</h3>
 
-<p>I have implemented a search algorithm in <code>searchAgents.py</code> that helps Pacman agent to find the shortest path through the maze that touches all four corners.</p>
+###
 
-<p>The Pacman will quickly find a solution via running the following commands:</p>
+<p align="left">1. Block WIthholding Attack<br>2. Selfish Mining Attack<br>3. Fork After Withholding Attack<br>4. Bribery Attack</p>
 
-<pre><code>$ python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</code></pre>
-<pre><code>$ python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</code></pre>
+###
 
-<p align="center"> 
-<img src="gif/All Corners.gif" alt="Animated gif Finding All of the Corners" height="40%" width="40%">
-</p>
+<h3 align="left">Consensus Mechanism and ledger-based Attacks</h3>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+###
 
-<!-- SCENARIO6 -->
-<h2 id="scenario6"> :small_orange_diamond: Scenario 6: Corners Problem - Admissible and Consistent Heuristic</h2>
+<p align="left">1.  Finney Attack<br>2.  51% Attack<br>3.  Consensus delay Attack <br>4.  Time-jacking Attack<br>5.  Selfish Mining Attack<br>6.  Block Withholding Attack<br>7.  Attack by accumulating the coin age<br>8.  Race Attack<br>9.  Block Discarding Attack <br>10.  Ballot Stuffing Attack</p>
 
-<p>I have implemented a non-trivial non-negative consistent heuristic function that returns 0 at every goal state and never returns a negative value.</p>
-<p>This function is both <b><i>Admissible</b></i> and <b><i>Consistent</b></i> and has been written in <code>searchAgents.py.</code></p>
+###
 
-<p>The Pacman will quickly find a solution via running the following command:</p>
+<h3 align="left">Transaction Verification Attacks</h3>
 
-<pre><code>$ python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5</code></pre>
+###
 
-<p align="center"> 
-<img src="gif/Corner Heuristic.gif" alt="Animated gif Corners Problem" height="282px" width="637">
-</p>
+<p align="left">1.  Double spending Attack<br>2.  Time delay Attack<br>3.  Dust Attack<br>4.  Hacking Hash Functions<br>5.  Message Spoofing Attack</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO7 -->
-<h2 id="scenario7"> :small_orange_diamond: Scenario 7: Eating All of The Dots</h2>
-
-<p>I have implemented a heuristic function that helps Pacman agent to eat all the food in as few steps as possible.</p>
-<p>The Pacman will quickly find a solution via running the following command:</p>
-
-<pre><code>$ python pacman.py -l trickySearch -p AStarFoodSearchAgent</code></pre>
-
-<p align="center"> 
-<img src="gif/All Dots.gif" alt="Animated gif Eating All of The Dots" height="282px" width="637">
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO8 -->
-<h2 id="scenario8"> :small_orange_diamond: Scenario 8: Suboptimal Search</h2>
-
-<p>In this scenario, I have implemented a function that helps Pacman agent to find a path to the closest dot.</p>
-<p>This function has been written in <code>searchAgents.py</code></p>
-<p>The Pacman will quickly find a solution via running the following command:</p>
-
-<pre><code>$ python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5</code></pre>
-
-<p align="center"> 
-<img src="gif/Suboptimal Search.gif" alt="Animated gif Suboptimal Search" height="282px" width="637">
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- CREDITS -->
-<h2 id="credits"> :scroll: Credits</h2>
-
-Mohammad Amin Shamshiri
-
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ma-shamshiri)
-[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ma_shamshiri)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ma-shamshiri)
-
-Acknowledgements: Based on UC Berkeley's Pacman AI project, <a href="http://ai.berkeley.edu">http://ai.berkeley.edu</a>
+###
