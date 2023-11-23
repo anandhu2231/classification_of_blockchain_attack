@@ -23,11 +23,11 @@
 
 ###
 
-<p align="left">- 
+
 * Blockchain technology is intended to be safe and resistant to unauthorized changes, however it is not immune to certain sorts of attacks.
 * Attacks on blockchain, such as 51% attacks and smart contract vulnerabilities, can erode trust in cryptocurrencies and financial products, potentially reducing their adoption. 
 * This review paper will investigate blockchain component attacks, examining weaknesses and security challenges in important areas like as consensus procedures, smart contracts, cryptography, and network protocols.
-* Among the main components that will be focused on are consensus mechanisms, mining, mining pools, peer-to-peer networks, ledgers, wallets, networks and smart contracts.</p>
+* Among the main components that will be focused on are consensus mechanisms, mining, mining pools, peer-to-peer networks, ledgers, wallets, networks and smart contracts.
 
 ###
 
