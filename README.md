@@ -189,6 +189,11 @@ Security testing in Networks helps in identifying potential network vulnerabili
 
 ###
 
-<p align="left">Phishing Attacks<br>Man-in-the-Middle (MitM) Attacks<br>Cross-Site Scripting (XSS) Attacks<br>SQL Injection<br>Cross-Site Request Forgery (CSRF)<br>Session Hijacking</p>
+* Phishing Attacks
+* Man-in-the-Middle (MitM) Attacks
+* Cross-Site Scripting (XSS) Attacks
+* SQL Injection
+* Cross-Site Request Forgery (CSRF)
+* Session Hijacking
 
 ###
