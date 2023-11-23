@@ -93,7 +93,22 @@
 
 ###
 
-<p align="left">1.  Transaction malleability Attack<br>2.  Liveness Attack<br>3.  Spatial partitioning attack<br>4.  BGP hijacking attack<br>5.  Stress testing attack<br>6.  Memory pool flooding<br>7.  Block withholding attack<br>8.  DNS attack <br>9.  Eclipse attack<br>10.  Sybil attack <br>11.  Time-jacking<br>12.  Eclipse attack<br>13.  Distributed denial of service (DDoS) attack<br>14.  Memory pool flooding attack<br>15.  Routing attack<br>16.  Bribery attack</p>
+ 1.  Transaction malleability Attack
+ 2.  Liveness Attack
+ 3.  Spatial partitioning attack
+ 4.  BGP hijacking attack
+ 5.  Stress testing attack
+ 6.  Memory pool flooding
+ 7.  Block withholding attack
+ 8.  DNS attack
+ 9.  Eclipse attack
+ 10.  Sybil attack
+ 11.  Time-jacking
+ 12.  Eclipse attack
+ 13.  Distributed denial of service (DDoS) attack
+ 14.  Memory pool flooding attack
+ 15.  Routing attack
+ 16.  Bribery attack
 
 ###
 
@@ -101,7 +116,10 @@
 
 ###
 
-<p align="left">1.  DAO attack - Decentralized Autonomous Organization Attack<br>2.  Race attack<br>3.  Code injection</p>
+
+ 1. DAO Attack - Decentralized Autonomous Organization Attack
+ 2.  Race Attack
+ 3.  Code Injection
 
 ###
 
@@ -109,7 +127,12 @@
 
 ###
 
-<p align="left">1.  Parity multi-sig wallet Attack <br>2.  Wallet Thief Attack<br>3.  Brute Force attack<br>4.  Social Engineering Attack<br>5.  Phishing Attack<br>6.  XSS Attack</p>
+ 1.  Parity multi-sig wallet Attack 
+ 2.  Wallet Thief Attack
+ 3.  Brute Force attack
+ 4.  Social Engineering Attack
+ 5.  Phishing Attack
+ 6.  XSS Attack
 
 ###
 
@@ -117,7 +140,10 @@
 
 ###
 
-<p align="left">1. Block WIthholding Attack<br>2. Selfish Mining Attack<br>3. Fork After Withholding Attack<br>4. Bribery Attack</p>
+ 1. Block WIthholding Attack
+ 2. Selfish Mining Attack
+ 3. Fork After Withholding Attack
+ 4. Bribery Attack
 
 ###
 
@@ -125,7 +151,16 @@
 
 ###
 
-<p align="left">1.  Finney Attack<br>2.  51% Attack<br>3.  Consensus delay Attack <br>4.  Time-jacking Attack<br>5.  Selfish Mining Attack<br>6.  Block Withholding Attack<br>7.  Attack by accumulating the coin age<br>8.  Race Attack<br>9.  Block Discarding Attack <br>10.  Ballot Stuffing Attack</p>
+ 1.  Finney Attack
+ 2.  51% Attack
+ 3.  Consensus delay Attack 
+ 4.  Time-jacking Attack
+ 5.  Selfish Mining Attack
+ 6.  Block Withholding Attack
+ 7.  Attack by accumulating the coin age
+ 8.  Race Attack
+ 9.  Block Discarding Attack
+ 10.  Ballot Stuffing Attack</p>
 
 ###
 
@@ -133,7 +168,11 @@
 
 ###
 
-<p align="left">1.  Double spending Attack<br>2.  Time delay Attack<br>3.  Dust Attack<br>4.  Hacking Hash Functions<br>5.  Message Spoofing Attack</p>
+ 1.  Double spending Attack
+ 2.  Time delay Attack
+ 3.  Dust Attack
+ 4.  Hacking Hash Functions
+ 5.  Message Spoofing Attack
 
 ###
 
