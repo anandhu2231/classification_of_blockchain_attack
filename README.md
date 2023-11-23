@@ -72,10 +72,10 @@
   * Classes : Core-oriented and Client-oriented
   
 * Title : A Survey on Consensus Protocols and Attacks on Blockchain Technology
- * Year : 2023
- * Author : Dr. Abhishek Guru et. al
- * Classification : No Classification
- * Classes : No Classes
+  * Year : 2023
+  * Author : Dr. Abhishek Guru et. al
+  * Classification : No Classification
+  * Classes : No Classes
  
 * Title : A Comprehensive Survey on Attacks, Security Issues and Blockchain Solutions for IoT and IIoT.
   * Year : 2020
@@ -149,7 +149,18 @@
 
 ###
 
-<p align="left">1.  Download and Install Multichain from - https://www.multichain.com/download-community/ .<br>2.  Create a new blockchain called <chain-name> based on MultiChain. - $ multichain-util create <chain-name>.<br>3.   Start the blockchain - $ multichaind <chain-name> -daemon<br>4.   Add new nodes using the command - $ multichaind chain_name@ip_node1:port -daemon</p>
+1.  Download and Install Multichain from https://www.multichain.com/download-community/
+2.  Create a new blockchain called <chain-name> based on MultiChain. 
+<button onclick="copyToClipboard('#code-to-copy')">Copy</button>
+<pre id="code-to-copy">$ multichain-util create</pre>
+<script>
+function copyToClipboard(element) {
+  var copyText = document.querySelector(element).innerText;
+  navigator.clipboard.writeText(copyText);
+}
+</script>
+3.  Start the blockchain - $ multichaind <chain-name> -daemon<br>.
+4.  Add new nodes using the command - $ multichaind chain_name@ip_node1:port -daemon</p>
 
 ###
 
@@ -169,7 +180,9 @@
 
 ###
 
-<p align="left">Security testing in Networks helps in identifying potential network vulnerabilities, such as loopholes in data transfer protocols or peer discovery mechanisms, that an attacker might exploit.  By identifying and mitigating security vulnerabilities, the risk of financial loss due to fraud, theft, or other malicious activities is significantly reduced.<br><br>- Stress Testing - evaluating the network's capacity to manage heavy traffic or loads.<br><br>- Node Security Assessments - testing each network node's security separately.</p>
+Security testing in Networks helps in identifying potential network vulnerabilities, such as loopholes in data transfer protocols or peer discovery mechanisms, that an attacker might exploit.  By identifying and mitigating security vulnerabilities, the risk of financial loss due to fraud, theft, or other malicious activities is significantly reduced. 
+ * Stress Testing - evaluating the network's capacity to manage heavy traffic or loads.
+ * Node Security Assessments - testing each network node's security separately.
 
 ###
 
