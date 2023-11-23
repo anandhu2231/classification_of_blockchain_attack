@@ -152,8 +152,10 @@
 1.  Download and Install Multichain from https://www.multichain.com/download-community/
 2.  Create a new blockchain called <chain-name> based on MultiChain. 
 <pre id="code-to-copy">$ multichain-util create</pre>
-3.  Start the blockchain - $ multichaind <chain-name> -daemon<br>.
-4.  Add new nodes using the command - $ multichaind chain_name@ip_node1:port -daemon</p>
+3.  Start the blockchain.
+<pre id="code-to-copy">$ multichaind <chain-name> -daemon</pre>
+4.  Add new nodes using the command.
+<pre id="code-to-copy">$ multichaind chain_name@ip_node1:port -daemon</pre>
 
 ###
 
