@@ -10,7 +10,9 @@
 
 ###
 
-<p align="left">- This project aims to categorize attacks within blockchain networks, focusing on individual blockchain components and providing a comprehensive framework for identifying and analyzing these attacks.<br><br>- Wallet, Consensus Mechanism, Mining pool, Peer-to-Peer network, and Smart Contracts are the blockchain components.<br><br>- The primary purpose is to give a precise taxonomy that categorizes various attack paths, allowing for a better understanding of risks and vulnerabilities in the context of blockchain components.</p>
+* This project aims to categorize attacks within blockchain networks, focusing on individual blockchain components and providing a comprehensive framework for identifying and analyzing these attacks.
+* Wallet, Consensus Mechanism, Mining pool, Peer-to-Peer network, and Smart Contracts are the blockchain components.
+* The primary purpose is to give a precise taxonomy that categorizes various attack paths, allowing for a better understanding of risks and vulnerabilities in the context of blockchain components.
 
 ###
 
@@ -39,11 +41,11 @@
 
 ###
 
-<p align="left">
+
 * Attack categorization is important because it offers a formal framework for understanding and solving cybersecurity threats. 
 * The previous papers are classified attack based on Core or Client Oriented,  Physical Attacks,Network Attacks, Software Attacks and Industrial Internet of Things.
 * Previous research publications have addressed blockchain attacks, but they have often categorised just a small fraction of these attacks.
-* Attack classification based on blockchain components enables businesses to more precisely allocate resources and deploy security measures, thereby improving the protection of specific digital assets.</p>
+* Attack classification based on blockchain components enables businesses to more precisely allocate resources and deploy security measures, thereby improving the protection of specific digital assets.
 
 ###
 
@@ -51,7 +53,35 @@
 
 ###
 
-<p align="left">Title: Attacks on blockchain <br>Year: 2019 <br>Author: Shubhani Aggarwal and Neeraj Kumar <br>Classification: Based on Blockchain Components <br>Classes: Consensus and ledger-Based Attacks, Peer-to-Peer Network, Smart Contract, Wallet-based Attacks <br><br>Title: Review of Blockchain Technology Vulnerabilities and Blockchain-System Attacks  <br>Year: 2019 <br>Author:  A. Averin and O. Averina <br>Classification: No Classification <br>Classes: No Classes <br><br>Title : 6G technology and taxonomy of attacks on blockchain technology<br>Year : 2022 <br>Author :  Firdous Kausar  et. al<br>Classification : Approaches within the blockchain ecosystem<br>Classes : Core-oriented and Client-oriented<br><br>Title : A Survey on Consensus Protocols and Attacks on Blockchain Technology<br>Year : 2023<br>Author : Dr. Abhishek Guru et. al<br>Classification : No Classification<br>Classes : No Classes<br><br>Title : A Comprehensive Survey on Attacks, Security Issues and Blockchain Solutions for IoT and IIoT.<br>Year : 2020<br>Author :  Jayasree Sengupta et. al<br>Classification : Target and Method of Attack<br>Classes : Physical Attacks,Network Attacks, Software Attacks, Industrial Internet of Things (IIoT)</p>
+* Title: Attacks on blockchain 
+  * Year: 2019 
+  * Author: Shubhani Aggarwal and Neeraj Kumar
+  * Classification: Based on Blockchain Components 
+  * Classes: Consensus and ledger-Based Attacks, Peer-to-Peer Network, Smart Contract, Wallet-based Attacks
+
+* Title: Review of Blockchain Technology Vulnerabilities and Blockchain-System Attacks  
+  * Year: 2019 
+  * Author:  A. Averin and O. Averina 
+  * Classification: No Classification
+  * Classes: No Classes
+
+* Title : 6G technology and taxonomy of attacks on blockchain technology
+  * Year : 2022 
+  * Author :  Firdous Kausar  et. al
+  * Classification : Approaches within the blockchain ecosystem
+  * Classes : Core-oriented and Client-oriented
+  
+* Title : A Survey on Consensus Protocols and Attacks on Blockchain Technology
+ * Year : 2023
+ * Author : Dr. Abhishek Guru et. al
+ * Classification : No Classification
+ * Classes : No Classes
+ 
+* Title : A Comprehensive Survey on Attacks, Security Issues and Blockchain Solutions for IoT and IIoT.
+  * Year : 2020
+  * Author :  Jayasree Sengupta et. al
+  * Classification : Target and Method of Attack
+  * Classes : Physical Attacks,Network Attacks, Software Attacks, Industrial Internet of Things (IIoT)
 
 ###
 
